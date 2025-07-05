@@ -63,7 +63,7 @@ export default function HomePage() {
                 Codehence
               </div>
               <nav className="hidden md:flex space-x-6">
-                {["Pricing", "Documentation", "About Us"].map((item) => (
+                {["Pricing", "About Us"].map((item) => (
                   <a
                     key={item}
                     href="#"
